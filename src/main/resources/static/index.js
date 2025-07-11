@@ -2,7 +2,7 @@
 
 let allBooks = [];
 
-fetch('http://localhost:8080/api/getAllBook')
+fetch('https://topbooklist-2.onrender.com/api/getAllBook')
   .then(response => response.json())
   .then(books => {
     allBooks = books;
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const refreshBtn = document.getElementById("refreshIcon");
 
     refreshBtn.addEventListener("click", () => {
-        fetch("http://localhost:8080/api/refresh", {
+        fetch("https://topbooklist-2.onrender.com/api/refresh", {
             method: "GET"
         })
         .then(response => {
