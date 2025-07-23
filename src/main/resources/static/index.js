@@ -2,7 +2,7 @@
 
 let allBooks = [];
 
-fetch('https://topbooklist-2.onrender.com/api/getAllBook')
+fetch('https://maketronics-tech-assignment.onrender.com/api/getAllBook')
   .then(response => response.json())
   .then(books => {
     allBooks = books;
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const refreshBtn = document.getElementById("refreshIcon");
 
     refreshBtn.addEventListener("click", () => {
-        fetch("https://topbooklist-2.onrender.com/api/refresh", {
+        fetch("https://maketronics-tech-assignment.onrender.com/api/refresh", {
             method: "GET"
         })
         .then(response => {
