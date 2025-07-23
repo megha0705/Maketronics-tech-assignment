@@ -2,7 +2,7 @@
 
 ## 🌐 Live Website
 
-🔗 [Click here to visit the site](https://topbooklist-2.onrender.com/)
+🔗 [Click here to visit the site](https://maketronics-tech-assignment.onrender.com)
 
 A small functional web app that shows **Top 20 Trending Books of 2025**.  
 
